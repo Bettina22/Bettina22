@@ -1,0 +1,158 @@
+body{
+    background: white;
+    margin: 0;
+}
+
+ /*header*/
+ header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   height: 250px;    
+}
+header ul{
+  display: flex;
+  flex-direction: row;
+}
+header li{
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8%;
+}
+header h1{
+   align-content: flex-start;
+}
+h1{
+   font-style: italic ;
+   font-weight: 1.2em;
+
+}
+ .presentation{
+    background-color:palevioletred;
+    color: black;
+    width: 75%;
+    height: 100%;
+    border-bottom-left-radius: 80px ;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+    padding: 20px;     
+}
+ .presentation ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+ }
+ .presentation p{
+    display: flex;
+    align-content: space-around;
+    padding: 10px;
+ }
+ .logo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+/*main*/
+/*Mes projets*/
+.projet-container{
+   display: flex;
+   flex-direction: row;   
+   width: 100%;
+   gap: 10px;
+}
+ .projets{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: lightpink;
+    color: black;      
+    align-items: center;
+    font-family: sans-serif;
+    gap: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+    padding: 20px;     
+ } 
+ .photo{
+   height: 150px;
+   width: 150px;
+   border: 2px solid black;
+   object-fit: cover;
+   display: flex;
+   align-items: center;
+}
+
+ /*Apropos*/   
+ .apropos{
+   display: flex;
+   flex-direction: row;
+   background-color:palevioletred;
+   color: black;
+   border-radius: 15px;
+   -webkit-box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.24);
+    padding: 20px;     
+}
+.bio{
+   width: 50%;
+   padding: 60px;
+}
+.bouton{    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 8px;    
+   padding: 8px 16px;
+   font-weight: 500;
+   background-color: white;
+   color:black;
+   margin: 8px 0px; 
+   border: 2px solid black;  
+   text-decoration: none;  
+   gap: 8px;
+}
+.formation{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start ;
+}
+.parcours{
+   display: flex;
+   flex-direction: column;
+}
+.competences-container .logo{
+display: flex;
+gap: 16px;
+}
+ 
+ /*footer*/
+ footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+}
+footer p{
+   font-weight: 300;
+   font-size: 1.2em;
+   font-style: italic;
+}
+
+
+
+
+   
+
+
+ 
+ 
+    
+ 
+
+
