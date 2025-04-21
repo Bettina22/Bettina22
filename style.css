@@ -48,6 +48,7 @@ h1{
  }
  .presentation p{
     display: flex;
+    flex-direction: column;
     align-content: space-around;
     padding: 10px;
  }
